@@ -1,0 +1,12 @@
+KATUKUNDA ROCHELLE
+S21B23/016
+A94169
+
+The database project is a database that stores information about a hospital, that is, patients, doctors, fees to be paid for the treatment offered, departments in which patients are taken when admitted and the fields in which the doctors specialize.
+In our relational database, the information is broken down into different tables in order to reduce data redundancy.
+The tables in the relational database include:
+A patients table that shows the patient_id(p_id), patient_name(p_name), gender, age and p_department(p_dept) where the patients are admitted according to their illness.
+A doctors table that shows the doctor_id(d_id), doctor_name(d_name) and field in which they work, that is, department.
+An admission table that shows the admission_id(ad_id), p_department(p_dept) in which the patient is admitted and fee to be paid after the treatment is administered.
+A treatment table that shows the patient_id(p_id), doctor_id(d_id) and admission_id(ad_id).
+The treatment table acts as the join table in this relational database.
