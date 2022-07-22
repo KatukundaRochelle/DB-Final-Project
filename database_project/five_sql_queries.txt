@@ -4,11 +4,12 @@ SELECT COUNT(patient_name) FROM patients;
 2.A query that brings the patient's names, gender, age and department in descending order.
 SELECT patient_name, gender , age, p_department FROM patients ORDER BY patient_name DESC;
 
-3.A concactenated query that shows a connection between the three tables and shows patients that are in the oncology department and the doctors that treat them.
-SELECT patient_name FROM patients WHERE patient_id IN(SELECT doctor_id FROM treatment WHERE patient_id IN(SELECT doctor_id FROM doctors WHERE field LIKE "%Oncology%"));
+3.A concactenated query that shows a connection between the three tables and shows patients that are treated by doctors in the oncology department.
+SELECT patient_name FROM patients WHERE patient_id IN (SELECT patient_id FROM treatment WHERE doctor_id IN (SELECT doctor_id FROM doctors WHERE field LIKE '%Oncology%'));  
 
 4.A join query to return the name of a patient and the fee they are supposed to clear.
-SELECT patient_name, fee FROM patients JOIN admission WHERE patients.patient_id = admission.patient_id;
+SELECT patient_name,fee FROM patients JOIN treatment JOIN admission ON admission.admission_id = treatment.admis
+sion_id AND treatment.patient_id = patients.patient_id;
 
-5.A join query to return the name of the patient and their department.
-SELECT patient_name, p_department FROM patients JOIN admission WHERE patients.patient_id=admission.patient_id;
+5.A join query to return the name of the patient and their doctor's id.
+SELECT patient_name,doctors.doctor_id FROM patients JOIN treatment JOIN doctors ON doctors.doctor_id = treatment.doctor_id AND treatment.patient_id = patients.patient_id;  

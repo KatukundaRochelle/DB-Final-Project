@@ -1,8 +1,10 @@
 CREATE TABLE `patients` (
   `patient_id` int PRIMARY KEY,
+  `admission_id` int,
   `patient_name` text,
   `gender` text,
   `age` int,
+  `doctor_name` text,
   `p_department` text
 );
 

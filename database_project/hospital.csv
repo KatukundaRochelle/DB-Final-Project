@@ -1,26 +1,26 @@
 patient_id,patient_name,gender,age,p_department,fee,doctor_id,doctor_name,field,admission_id
-1,James Smith,M,22,Surgery,"5,000,000",301,Edward Jenner,Oncology,501
-2,Maria Garcia,F,30,Neurology,"30,000,000",302,Marty Makary,Surgery,502
-3,Micheal Angelo,M,45,Psychiatry,"500,000",303,Sid Watkins,Pediatrics,503
-4,Tom Hardy,M,3,Pediatrics,"500,000",304,James Parkinson,Psychiatry,504
-5,Michelle Snow,F,23,Plastic Surgery,"500,000,000",305,Thomas Neill,Dermatology,505
-6,Jim Brown,M,35,Cardiology,"2,500,000",306,William Palmer,Neurology,506
-7,Ada Maria,F,19,Gynaecology,"1,500,000",307,Ellis Havelock,Psychiatry,507
-8,Billy Baker,M,80,Surgery,"4,000,000",308,John Armstrong,Oncology,508
-9,George Clarke,M,24,Psychiatry,"400,000",309,George Alfred,Plastic Surgery,509
-10,David Taylor,M,23,Psychiatry,"450,000",310,William Addison,Physical Therapy,510
-11,Mary Elizabeth,F,21,Oncology,"20,000,000",311,John Burton,Cardiology,511
-12,Samuel King,M,5,Pediatrics,"100,000",312,Matthew Dobson,Gynaecology,512
-13,Eliza Catherine,F,19,Psychiatry,"70,000",313,Jonathan Miller,Pediatrics,513
-14,Nancy Ann,F,29,Neurology,"2,500,000",314,Charles Aikin,Plastic Surgery,514
-15,Josh Miller,M,50,Oncology,"55,000,000",315,Nicholas Barbon,Surgery,515
-16,Joe Black,M,25,Psychiatry,"600,000",316,William Harvey,Oncology,516
-17,Henry David,M,61,Cardiology,"4,500,000",317,Sally Davies,Physical Therapy,517
-18,Hannah Thomas,F,30,Gynaecology,"3,000,000",318,Roger Harris,Dermatology,518
-19,Lisa Hurley,F,34,Oncology,"40,000,000",319,Jane Elizabeth,Neurology,519
-20,Robert Williams,M,60,Cardiology,"6,005,000",320,Simon Wessley,Gynaecology,520
-21,Lucy White,F,35,Physical Therapy,"2,000,000",321,Grace Robinson,Psychiatry,521
-22,Nicole Green,F,6,Endocrinology,"5,000,000",322,Brian Connor,Cardiology,522
-23,Suzanne West,F,50,Cardiology,"2,300,000",323,Aidan Noon,Pediatrics,523
-24,John Webber,M,55,Plastic Surgery,"60,000,000",324,Nina Bal,Dermatology,524
-25,Sam Smith,M,43,Surgery,"40,000,000",325,Patrick Atom,Plastic Surgery,525
+1,James Smith,M,22,Oncology,"5,000,000",301,Edward Jenner,Oncology,501
+2,Maria Garcia,F,30,Neurology,"30,000,000",302,Marty Makary,Neurology,502
+3,Micheal Angelo,M,45,Psychiatry,"500,000",303,Sid Watkins,Psychiatry,503
+4,Tom Hardy,M,3,Pediatrics,"500,000",304,James Parkinson,Pediatrics,504
+5,Michelle Snow,F,23,Plastic Surgery,"500,000,000",305,Thomas Neill,Plastic Surgery,505
+6,Jim Brown,M,35,Cardiology,"2,500,000",306,William Palmer,Cardiology,506
+7,Ada Maria,F,19,Gynaecology,"1,500,000",307,Ellis Havelock,Gynaecology,507
+8,Billy Baker,M,80,Surgery,"4,000,000",308,John Armstrong,Surgery,508
+9,George Clarke,M,24,Psychiatry,"400,000",309,George Alfred,Psychiatry,509
+10,David Taylor,M,23,Physical Therapy,"450,000",310,William Addison,Physical Therapy,510
+11,Mary Elizabeth,F,21,Oncology,"20,000,000",311,John Burton,Oncology,511
+12,Samuel King,M,5,Pediatrics,"100,000",312,Matthew Dobson,Pediatrics,512
+13,Eliza Catherine,F,19,Psychiatry,"70,000",313,Jonathan Miller,Psychiatry,513
+14,Nancy Ann,F,29,Plastic Surgery,"2,500,000",314,Charles Aikin,Plastic Surgery,514
+15,Josh Miller,M,50,Oncology,"55,000,000",315,Nicholas Barbon,Oncology,515
+16,Joe Black,M,25,Oncology,"600,000",316,William Harvey,Oncology,516
+17,Henry David,M,61,Cardiology,"4,500,000",317,Sally Davies,Cardiology,517
+18,Hannah Thomas,F,30,Dermatology,"3,000,000",318,Roger Harris,Dermatology,518
+19,Lisa Hurley,F,34,Neurology,"40,000,000",319,Jane Elizabeth,Neurology,519
+20,Robert Williams,M,60,Cardiology,"6,005,000",320,Simon Wessley,Cardiology,520
+21,Lucy White,F,35,Physical Therapy,"2,000,000",321,Grace Robinson,Physical Therapy,521
+22,Nicole Green,F,6,Endocrinology,"5,000,000",322,Brian Connor,Endocrinology,522
+23,Suzanne West,F,50,Cardiology,"2,300,000",323,Aidan Noon,Cardiology,523
+24,John Webber,M,55,Dermatology,"60,000,000",324,Nina Bal,Dermatology,524
+25,Sam Smith,M,43,Plastic Surgery,"40,000,000",325,Patrick Atom,Plastic Surgery,525
